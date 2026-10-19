@@ -6,7 +6,7 @@ export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? (vercelHost ? `https:
 
 export const company = {
   name: "devFullMates",
-  email: "oliveir5uwm@gmail.com",
+  email: "devmates.adm@gmail.com",
   whatsapp: "5521998836527",
   whatsappDisplay: "+55 21 99883-6527",
   github: "https://github.com/devFullMates",
