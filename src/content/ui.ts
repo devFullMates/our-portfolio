@@ -56,9 +56,9 @@ export const ui = {
     services: {
       title: { en: "What we build for you", pt: "O que criamos para você", es: "Lo que creamos para ti" },
       intro: {
-        en: "From a simple landing page to a full web app, with the same care for speed, design and the people using it.",
-        pt: "De uma landing page simples a uma aplicação web completa, com o mesmo cuidado com velocidade, design e com quem vai usar.",
-        es: "Desde una landing page sencilla hasta una aplicación web completa, con el mismo cuidado por la velocidad, el diseño y las personas que la usan.",
+        en: "From complete web applications to the tools and integrations that keep your business running, with the same care for speed, design and the people using them.",
+        pt: "De aplicações web completas às ferramentas e integrações que fazem o seu negócio rodar, com o mesmo cuidado com velocidade, design e com quem vai usar.",
+        es: "Desde aplicaciones web completas hasta las herramientas e integraciones que mantienen tu negocio en marcha, con el mismo cuidado por la velocidad, el diseño y las personas que las usan.",
       },
     },
     projects: {
@@ -88,7 +88,6 @@ export const ui = {
   },
   projects: {
     visit: { en: "Visit live site", pt: "Ver site no ar", es: "Ver sitio en línea" },
-    code: { en: "Source code", pt: "Código-fonte", es: "Código fuente" },
     opensNewTab: { en: "(opens in a new tab)", pt: "(abre em nova aba)", es: "(se abre en una pestaña nueva)" },
     screenshot: { en: "Screenshot of", pt: "Captura de tela de", es: "Captura de pantalla de" },
   },

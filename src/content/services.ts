@@ -6,6 +6,19 @@ export type Service = { icon: ServiceIcon; title: Localized; text: Localized };
 
 export const services: Service[] = [
   {
+    icon: "plug",
+    title: {
+      en: "Web apps & integrations",
+      pt: "Aplicações web & integrações",
+      es: "Aplicaciones web e integraciones",
+    },
+    text: {
+      en: "Dashboards, scheduling, payments, emails and APIs built to fit your workflow.",
+      pt: "Painéis, agendamentos, pagamentos, e-mails e APIs feitos para o seu fluxo.",
+      es: "Paneles, agendas, pagos, correos y APIs hechos a la medida de tu trabajo.",
+    },
+  },
+  {
     icon: "layout",
     title: { en: "Websites & landing pages", pt: "Sites & landing pages", es: "Sitios web y landing pages" },
     text: {
@@ -43,19 +56,6 @@ export const services: Service[] = [
       en: "Reach clients in any language, rank on Google and welcome every visitor.",
       pt: "Alcance clientes em qualquer idioma, apareça no Google e receba bem todo visitante.",
       es: "Llega a clientes en cualquier idioma, aparece en Google y recibe bien a cada visitante.",
-    },
-  },
-  {
-    icon: "plug",
-    title: {
-      en: "Web apps & integrations",
-      pt: "Aplicações web & integrações",
-      es: "Aplicaciones web e integraciones",
-    },
-    text: {
-      en: "Dashboards, scheduling, payments, emails and APIs built to fit your workflow.",
-      pt: "Painéis, agendamentos, pagamentos, e-mails e APIs feitos para o seu fluxo.",
-      es: "Paneles, agendas, pagos, correos y APIs hechos a la medida de tu trabajo.",
     },
   },
   {

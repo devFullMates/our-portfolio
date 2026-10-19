@@ -10,7 +10,6 @@ export type Project = {
   summary: Localized;
   features: Localized[];
   tech: string[];
-  repos?: { label: string; url: string }[];
 };
 
 export const projects: Project[] = [
@@ -82,10 +81,5 @@ export const projects: Project[] = [
         es: "~97% en las auditorías de rendimiento y accesibilidad",
       },
     ],
-    tech: ["React", "TypeScript", "Vite", "Contentful", "GraphQL", "Node.js", "Express", "Nodemailer", "i18next"],
-    repos: [
-      { label: "Frontend", url: "https://github.com/devFullMates/bee-app" },
-      { label: "Webhook API", url: "https://github.com/larissakoliveira/webhook-api-contentful-bees" },
-    ],
-  },
+    tech: ["React", "TypeScript", "Vite", "Contentful", "GraphQL", "Node.js", "Express", "Nodemailer", "i18next"],  },
 ];
