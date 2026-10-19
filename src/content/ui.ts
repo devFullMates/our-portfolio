@@ -39,12 +39,6 @@ export const ui = {
     },
     primaryCta: { en: "Start a project", pt: "Começar um projeto", es: "Empezar un proyecto" },
     secondaryCta: { en: "See our work", pt: "Ver projetos", es: "Ver proyectos" },
-    showcaseLabel: { en: "Recent projects", pt: "Projetos recentes", es: "Proyectos recientes" },
-    badges: {
-      languages: { en: "4 languages", pt: "4 idiomas", es: "4 idiomas" },
-      audit: { en: "~97% performance & a11y", pt: "~97% performance & a11y", es: "~97% rendimiento y a11y" },
-      booking: { en: "WhatsApp booking", pt: "Agendamento no WhatsApp", es: "Reservas por WhatsApp" },
-    },
   },
   stats: [
     { value: "4+", label: { en: "years building for the web", pt: "anos criando para a web", es: "años creando para la web" } },

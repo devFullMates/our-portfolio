@@ -128,13 +128,6 @@ body {
     animation-play-state: paused;
   }
 
-  .float-slow {
-    animation: float 7s ease-in-out infinite;
-  }
-  .float-slower {
-    animation: float 9s ease-in-out -2s infinite;
-  }
-
   /* Headline highlight: underline draws itself, then the sprout grows. */
   .grow-underline path {
     stroke-dasharray: 200;
@@ -172,16 +165,6 @@ body {
 @keyframes marquee {
   to {
     transform: translateX(calc(-50% - 1.25rem));
-  }
-}
-
-@keyframes float {
-  0%,
-  100% {
-    translate: 0 0;
-  }
-  50% {
-    translate: 0 -10px;
   }
 }
 
