@@ -11,13 +11,9 @@ export function HeroSection({ t }: { t: Translator }) {
       <div aria-hidden="true" className="absolute -top-20 right-1/4 -z-10 size-[20rem] rounded-full bg-highlight/10 blur-3xl" />
 
       <div className="mx-auto max-w-4xl px-4 pt-10 pb-8 text-center sm:px-6 lg:pt-12">
-        <p className="inline-flex items-center gap-2 rounded-full border border-line-strong bg-surface px-3 py-1 font-mono text-xs text-body">
-          <span className="size-2 animate-pulse rounded-full bg-accent" aria-hidden="true" />
-          {t(ui.hero.eyebrow)}
-        </p>
         <h1
           id="hero-title"
-          className="mt-5 font-display text-4xl leading-[1.08] font-extrabold tracking-tight text-balance text-ink sm:text-5xl lg:text-[3.4rem]"
+          className="font-display text-4xl leading-[1.08] font-extrabold tracking-tight text-balance text-ink sm:text-5xl lg:text-[3.4rem]"
         >
           <GrowHighlight text={t(ui.hero.title)} />
         </h1>
