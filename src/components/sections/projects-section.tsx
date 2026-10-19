@@ -49,6 +49,7 @@ export function ProjectsSection({ t }: { t: Translator }) {
                     <div className="mt-6 flex flex-wrap gap-3 text-sm font-semibold">
                       <ExternalLink href={project.url} newTabLabel={newTab} className={`${buttonStyles.primary} px-5 py-2.5`}>
                         {t(ui.projects.visit)}
+                        <span className="sr-only">: {project.name}</span>
                         <ArrowUpRightIcon className="size-4" />
                       </ExternalLink>
                     </div>

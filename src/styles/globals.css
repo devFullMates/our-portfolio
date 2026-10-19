@@ -152,7 +152,7 @@ body {
     animation-delay: 1.5s;
   }
 
-  /* Sections fade up as they scroll into view (CSS only; browsers without support just show them). */
+  /* Sections slide up as they scroll into view (CSS only; browsers without support just show them). */
   @supports (animation-timeline: view()) {
     [data-reveal] {
       animation: reveal linear both;
@@ -180,13 +180,12 @@ body {
   }
 }
 
+/* Transform only: fading text would fail contrast checks while it is mid-animation. */
 @keyframes reveal {
   from {
-    opacity: 0;
     transform: translateY(28px);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }
