@@ -25,9 +25,9 @@ export const projects: Project[] = [
       es: "Terapeuta junguiana y astróloga · Brasil",
     },
     summary: {
-      en: "A calm, elegant website that turns visitors into clients: services for astrology and Jungian therapy, an articles blog the client updates herself, and one-tap booking on WhatsApp.",
-      pt: "Um site calmo e elegante que transforma visitantes em clientes: serviços de astrologia e terapia junguiana, um blog de artigos que a própria cliente atualiza e agendamento com um toque no WhatsApp.",
-      es: "Un sitio sereno y elegante que convierte visitantes en clientes: servicios de astrología y terapia junguiana, un blog de artículos que la propia clienta actualiza y reservas con un toque por WhatsApp.",
+      en: "A calm, elegant website designed to turn visitors into clients. It features services for Jungian therapy and astrology, a blog the client can update herself, and one-tap WhatsApp booking.",
+      pt: "Um site calmo e elegante, pensado para transformar visitantes em clientes. Apresenta os serviços de terapia junguiana e astrologia, um blog que a própria cliente atualiza e agendamento com um toque pelo WhatsApp.",
+      es: "Un sitio sereno y elegante, pensado para convertir visitantes en clientes. Presenta los servicios de terapia junguiana y astrología, un blog que la propia clienta actualiza y reservas con un toque por WhatsApp.",
     },
     features: [
       {
@@ -60,13 +60,13 @@ export const projects: Project[] = [
       es: "Tienda de productos de miel de un apicultor · Países Bajos",
     },
     summary: {
-      en: "A product catalog for a Dutch beekeeper, in four languages. The owner manages products and stock in a CMS, and customers can ask to be emailed as soon as a sold-out item is back.",
-      pt: "Um catálogo de produtos para um apicultor holandês, em quatro idiomas. O dono gerencia produtos e estoque em um CMS, e os clientes pedem para receber um e-mail assim que um item esgotado volta.",
-      es: "Un catálogo de productos para un apicultor neerlandés, en cuatro idiomas. El dueño gestiona productos y stock en un CMS, y los clientes pueden pedir un aviso por correo cuando un producto agotado vuelve.",
+      en: "A multilingual product catalog for a Dutch beekeeper. The owner manages products and inventory through a CMS, while customers can sign up for email alerts when an item is back in stock.",
+      pt: "Um catálogo de produtos multilíngue para um apicultor holandês. O dono gerencia produtos e estoque por um CMS, e os clientes podem se cadastrar para receber um aviso por e-mail quando um item volta ao estoque.",
+      es: "Un catálogo de productos multilingüe para un apicultor neerlandés. El dueño gestiona productos e inventario desde un CMS, y los clientes pueden suscribirse para recibir un aviso por correo cuando un producto vuelve a estar disponible.",
     },
     features: [
       {
-        en: "Dutch, English, Portuguese and German",
+        en: "Dutch, English, Portuguese, and German",
         pt: "Holandês, inglês, português e alemão",
         es: "Neerlandés, inglés, portugués y alemán",
       },

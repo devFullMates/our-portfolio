@@ -10,7 +10,7 @@ export const ui = {
       es: "devFullMates · Estudio de desarrollo de software",
     },
     description: {
-      en: "Larissa Oliveira and Raissa Toledo design and build web applications that help businesses grow, from customer-facing products to internal tools and integrations, in Brazil and worldwide. See our projects and get in touch.",
+      en: "Larissa Oliveira and Raissa Toledo design and build web applications that help businesses grow, from customer-facing products to internal tools and integrations, for clients in Brazil and worldwide. See our projects and get in touch.",
       pt: "Larissa Oliveira e Raissa Toledo criam aplicações web que ajudam negócios a crescer, de produtos para os seus clientes a ferramentas internas e integrações, no Brasil e no mundo. Veja nossos projetos e fale com a gente.",
       es: "Larissa Oliveira y Raissa Toledo diseñan y desarrollan aplicaciones web que ayudan a los negocios a crecer, desde productos para sus clientes hasta herramientas internas e integraciones, en Brasil y en todo el mundo. Mira nuestros proyectos y contáctanos.",
     },
@@ -23,23 +23,25 @@ export const ui = {
   hero: {
     /** The word between ** gets the growing-sprout highlight. */
     title: {
-      en: "Applications that make your business **grow**.",
-      pt: "Aplicações que fazem o seu negócio **crescer**.",
-      es: "Aplicaciones que hacen **crecer** tu negocio.",
+      en: "Web applications that help your business **grow**.",
+      pt: "Aplicações web que ajudam o seu negócio a **crescer**.",
+      es: "Aplicaciones web que ayudan a tu negocio a **crecer**.",
     },
     text: {
-      en: "We're Larissa and Raissa, two full stack developers. We design and build web applications that simplify your operations, win you new clients and grow along with your business.",
-      pt: "Somos a Larissa e a Raissa, duas desenvolvedoras full stack. Criamos aplicações web que simplificam a sua operação, conquistam novos clientes e crescem junto com o seu negócio.",
-      es: "Somos Larissa y Raissa, dos desarrolladoras full stack. Diseñamos y creamos aplicaciones web que simplifican tu operación, te traen nuevos clientes y crecen junto con tu negocio.",
+      en: "We're Larissa and Raissa, two full-stack developers who design and build web applications that streamline your operations, help you attract new customers, and scale with your business.",
+      pt: "Somos a Larissa e a Raissa, duas desenvolvedoras full stack que criam aplicações web para otimizar a sua operação, atrair novos clientes e escalar junto com o seu negócio.",
+      es: "Somos Larissa y Raissa, dos desarrolladoras full stack que diseñan y crean aplicaciones web para optimizar tu operación, atraer nuevos clientes y escalar junto con tu negocio.",
     },
-    primaryCta: { en: "Start a project", pt: "Começar um projeto", es: "Empezar un proyecto" },
-    secondaryCta: { en: "See our work", pt: "Ver projetos", es: "Ver proyectos" },
+    primaryCta: { en: "Let's talk about your project", pt: "Vamos falar do seu projeto", es: "Hablemos de tu proyecto" },
+    secondaryCta: { en: "View our work", pt: "Ver nosso trabalho", es: "Ver nuestro trabajo" },
   },
+  /** Short enough to stay on one line in the header. */
+  headerCta: { en: "Let's talk", pt: "Vamos conversar", es: "Hablemos" },
   stats: [
-    { value: "4+", label: { en: "years building for the web", pt: "anos criando para a web", es: "años creando para la web" } },
-    { value: "2", label: { en: "countries with live client projects", pt: "países com projetos de clientes no ar", es: "países con proyectos de clientes en línea" } },
+    { value: "4+", label: { en: "years of experience", pt: "anos de experiência", es: "años de experiencia" } },
+    { value: "2", label: { en: "countries with active client projects", pt: "países com projetos ativos de clientes", es: "países con proyectos activos de clientes" } },
     { value: "3", label: { en: "languages we work in", pt: "idiomas em que atendemos", es: "idiomas en los que trabajamos" } },
-    { value: "~97%", label: { en: "performance & accessibility audits", pt: "nas auditorias de performance e acessibilidade", es: "en auditorías de rendimiento y accesibilidad" } },
+    { value: "~97%", label: { en: "performance and accessibility scores", pt: "nas notas de performance e acessibilidade", es: "en puntuaciones de rendimiento y accesibilidad" } },
   ] as { value: string; label: Localized }[],
   techStripLabel: { en: "Technologies we use", pt: "Tecnologias que usamos", es: "Tecnologías que usamos" },
   nav: {
@@ -56,7 +58,7 @@ export const ui = {
     services: {
       title: { en: "What we build for you", pt: "O que criamos para você", es: "Lo que creamos para ti" },
       intro: {
-        en: "From complete web applications to the tools and integrations that keep your business running, with the same care for speed, design and the people using them.",
+        en: "From complete web applications to the tools and integrations that keep your business running, with the same care for speed, design, and the people using them.",
         pt: "De aplicações web completas às ferramentas e integrações que fazem o seu negócio rodar, com o mesmo cuidado com velocidade, design e com quem vai usar.",
         es: "Desde aplicaciones web completas hasta las herramientas e integraciones que mantienen tu negocio en marcha, con el mismo cuidado por la velocidad, el diseño y las personas que las usan.",
       },
@@ -64,25 +66,25 @@ export const ui = {
     projects: {
       title: { en: "Selected work", pt: "Projetos em destaque", es: "Proyectos destacados" },
       intro: {
-        en: "Real projects, live for real clients, in Brazil and in Europe.",
-        pt: "Projetos reais, no ar para clientes reais, no Brasil e na Europa.",
-        es: "Proyectos reales, en línea para clientes reales, en Brasil y en Europa.",
+        en: "Real projects, built for real clients across Brazil and Europe.",
+        pt: "Projetos reais, feitos para clientes reais no Brasil e na Europa.",
+        es: "Proyectos reales, creados para clientes reales en Brasil y Europa.",
       },
     },
     process: {
       title: { en: "How we work", pt: "Como trabalhamos", es: "Cómo trabajamos" },
       intro: {
-        en: "A clear path from first chat to launch day, and you're part of every step.",
-        pt: "Um caminho claro da primeira conversa até o lançamento, com você em cada etapa.",
-        es: "Un camino claro desde la primera charla hasta el lanzamiento, contigo en cada paso.",
+        en: "A clear path from our first conversation to launch day, with you involved every step of the way.",
+        pt: "Um caminho claro da nossa primeira conversa até o lançamento, com você participando de cada etapa.",
+        es: "Un camino claro desde nuestra primera conversación hasta el lanzamiento, contigo involucrado en cada paso.",
       },
     },
     team: {
       title: { en: "The mates behind the code", pt: "As mates por trás do código", es: "Las mates detrás del código" },
       intro: {
-        en: "We bring experience from **enterprise e-commerce** and **large-scale learning platforms** to every project, so even a small project gets solid engineering. Check out our résumés.",
-        pt: "Levamos para cada projeto a experiência com **e-commerce enterprise** e **plataformas de ensino em larga escala**, então até um projeto pequeno recebe engenharia sólida. Confira nossos currículos.",
-        es: "Llevamos a cada proyecto nuestra experiencia en **e-commerce enterprise** y **plataformas educativas a gran escala**, así que hasta un proyecto pequeño recibe ingeniería sólida. Mira nuestros currículums.",
+        en: "We bring experience from **enterprise e-commerce** and **large-scale learning platforms** to every project. That means solid engineering and thoughtful solutions, whatever the size of your project. Get to know us and explore our résumés.",
+        pt: "Levamos para cada projeto a experiência com **e-commerce enterprise** e **plataformas de ensino em larga escala**, Isso significa engenharia sólida e soluções bem pensadas, seja qual for o tamanho do seu projeto. Conheça a gente e confira nossos currículos.",
+        es: "Llevamos a cada proyecto nuestra experiencia en **e-commerce enterprise** y **plataformas educativas a gran escala**, Eso significa ingeniería sólida y soluciones bien pensadas, sea cual sea el tamaño de tu proyecto. Conócenos y revisa nuestros currículums.",
       },
     },
   },
@@ -103,9 +105,9 @@ export const ui = {
       es: "¿Tienes una idea? Plantémosla juntos.",
     },
     text: {
-      en: "Tell us about your business and what you need. We usually reply within one business day.",
-      pt: "Conte sobre o seu negócio e o que você precisa. Costumamos responder em até um dia útil.",
-      es: "Cuéntanos sobre tu negocio y lo que necesitas. Solemos responder en un día hábil.",
+      en: "Tell us about your business and what you're looking to build. We typically respond within one business day.",
+      pt: "Conte sobre o seu negócio e o que você quer construir. Normalmente respondemos em até um dia útil.",
+      es: "Cuéntanos sobre tu negocio y lo que quieres construir. Normalmente respondemos en un día hábil.",
     },
     whatsapp: { en: "Chat on WhatsApp", pt: "Conversar no WhatsApp", es: "Hablar por WhatsApp" },
     email: { en: "Send an email", pt: "Enviar e-mail", es: "Enviar un correo" },
@@ -118,9 +120,9 @@ export const ui = {
   },
   footer: {
     tagline: {
-      en: "Applications that make your business grow.",
-      pt: "Aplicações que fazem o seu negócio crescer.",
-      es: "Aplicaciones que hacen crecer tu negocio.",
+      en: "Web applications that help your business grow.",
+      pt: "Aplicações web que ajudam o seu negócio a crescer.",
+      es: "Aplicaciones web que ayudan a tu negocio a crecer.",
     },
     backToTop: { en: "Back to top", pt: "Voltar ao topo", es: "Volver arriba" },
   },
