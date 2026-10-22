@@ -2,22 +2,22 @@ import type { Localized } from "@/i18n/config";
 
 export type ProcessStep = { title: Localized; text: Localized };
 
-/** "How we work": from the seed of an idea to a live, growing site. */
+/** "How we work": from the seed of an idea to a live, growing product. */
 export const processSteps: ProcessStep[] = [
   {
     title: { en: "Discover", pt: "Conversa", es: "Descubrir" },
     text: {
-      en: "We learn about your business, your clients and what the site needs to achieve.",
-      pt: "Entendemos o seu negócio, os seus clientes e o que o site precisa alcançar.",
-      es: "Conocemos tu negocio, tus clientes y lo que el sitio necesita lograr.",
+      en: "We learn about your business, your clients and what the application needs to achieve.",
+      pt: "Entendemos o seu negócio, os seus clientes e o que a aplicação precisa alcançar.",
+      es: "Conocemos tu negocio, tus clientes y lo que la aplicación necesita lograr.",
     },
   },
   {
     title: { en: "Design", pt: "Design", es: "Diseñar" },
     text: {
-      en: "We plan the structure and design the pages with your brand. You approve before we write any code.",
-      pt: "Planejamos a estrutura e desenhamos as páginas com a sua marca. Você aprova antes de qualquer código.",
-      es: "Planificamos la estructura y diseñamos las páginas con tu marca. Tú apruebas antes de escribir código.",
+      en: "We plan the features and design the screens with your brand. You approve before we write any code.",
+      pt: "Planejamos as funcionalidades e desenhamos as telas com a sua marca. Você aprova antes de qualquer código.",
+      es: "Planificamos las funcionalidades y diseñamos las pantallas con tu marca. Tú apruebas antes de escribir código.",
     },
   },
   {

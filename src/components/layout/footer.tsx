@@ -51,7 +51,7 @@ export function Footer({ t }: { t: Translator }) {
         </ul>
       </div>
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 border-t border-line px-4 py-5 text-xs text-muted sm:px-6">
-        <p>© devFullMates · {t(ui.footer.builtWith)}</p>
+        <p>© devFullMates</p>
         <a href="#top" className="inline-flex items-center gap-1 hover:text-accent">
           {t(ui.footer.backToTop)}
           <ArrowUpRightIcon className="size-3.5 -rotate-45" />
