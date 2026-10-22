@@ -119,10 +119,13 @@ pnpm lint && pnpm build
 
 ## Deployment
 
-The site is hosted on Vercel through its GitHub integration:
+The site is hosted on Vercel through its GitHub integration. Only `main` is deployed: every push to `main` updates production, and other branches are not built.
 
-- **Production** — every push to `main`.
-- **Preview** — every other branch and pull request gets its own preview URL.
+To check a change before it reaches `main`, run the production build locally:
+
+```bash
+pnpm build && pnpm start
+```
 
 ## License
 
