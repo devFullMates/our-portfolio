@@ -13,36 +13,36 @@ export const services: Service[] = [
       es: "Aplicaciones web e integraciones",
     },
     text: {
-      en: "Dashboards, scheduling, payments, emails and APIs built to fit your workflow.",
-      pt: "Painéis, agendamentos, pagamentos, e-mails e APIs feitos para o seu fluxo.",
-      es: "Paneles, agendas, pagos, correos y APIs hechos a la medida de tu trabajo.",
+      en: "Dashboards, scheduling tools, payment systems, email workflows, and APIs tailored to the way you work.",
+      pt: "Painéis, ferramentas de agendamento, sistemas de pagamento, fluxos de e-mail e APIs sob medida para o jeito que você trabalha.",
+      es: "Paneles, herramientas de agenda, sistemas de pago, flujos de correo y APIs a la medida de tu forma de trabajar.",
     },
   },
   {
     icon: "layout",
     title: { en: "Websites & landing pages", pt: "Sites & landing pages", es: "Sitios web y landing pages" },
     text: {
-      en: "Fast, responsive sites that present your business and turn visits into contacts.",
-      pt: "Sites rápidos e responsivos que apresentam seu negócio e transformam visitas em contatos.",
-      es: "Sitios rápidos y adaptables que presentan tu negocio y convierten visitas en contactos.",
+      en: "Fast, responsive websites that showcase your business and turn visitors into leads.",
+      pt: "Sites rápidos e responsivos que valorizam o seu negócio e transformam visitantes em potenciais clientes.",
+      es: "Sitios web rápidos y adaptables que destacan tu negocio y convierten visitantes en clientes potenciales.",
     },
   },
   {
     icon: "store",
     title: { en: "Catalogs & online stores", pt: "Catálogos & lojas online", es: "Catálogos y tiendas online" },
     text: {
-      en: "Show your products, control stock and keep customers coming back.",
-      pt: "Mostre seus produtos, controle o estoque e faça o cliente voltar.",
-      es: "Muestra tus productos, controla el stock y haz que tus clientes vuelvan.",
+      en: "Showcase your products, manage inventory, and give customers a reason to come back.",
+      pt: "Destaque os seus produtos, gerencie o estoque e dê aos clientes um motivo para voltar.",
+      es: "Destaca tus productos, gestiona el inventario y dales a tus clientes un motivo para volver.",
     },
   },
   {
     icon: "edit",
     title: { en: "Content you can edit", pt: "Conteúdo que você edita", es: "Contenido que tú editas" },
     text: {
-      en: "CMS integration (WordPress, Contentful) so you update texts, posts and products yourself.",
-      pt: "Integração com CMS (WordPress, Contentful) para você mesmo atualizar textos, posts e produtos.",
-      es: "Integración con CMS (WordPress, Contentful) para que actualices textos, posts y productos por tu cuenta.",
+      en: "CMS integration with WordPress or Contentful, so you can update copy, blog posts, and products yourself.",
+      pt: "Integração com WordPress ou Contentful para você mesmo atualizar textos, posts do blog e produtos.",
+      es: "Integración con WordPress o Contentful para que actualices textos, entradas del blog y productos por tu cuenta.",
     },
   },
   {
@@ -53,18 +53,18 @@ export const services: Service[] = [
       es: "Multilingüe, SEO y accesibilidad",
     },
     text: {
-      en: "Reach clients in any language, rank on Google and welcome every visitor.",
-      pt: "Alcance clientes em qualquer idioma, apareça no Google e receba bem todo visitante.",
-      es: "Llega a clientes en cualquier idioma, aparece en Google y recibe bien a cada visitante.",
+      en: "Reach customers in multiple languages, improve your visibility on Google, and make your website accessible to more people.",
+      pt: "Alcance clientes em vários idiomas, ganhe visibilidade no Google e torne o seu site acessível a mais pessoas.",
+      es: "Llega a clientes en varios idiomas, gana visibilidad en Google y haz que tu sitio sea accesible para más personas.",
     },
   },
   {
     icon: "rocket",
     title: { en: "Launch & support", pt: "Publicação & suporte", es: "Lanzamiento y soporte" },
     text: {
-      en: "Domain, hosting and deploys handled, plus support after go-live.",
-      pt: "Domínio, hospedagem e deploy resolvidos, com suporte depois do lançamento.",
-      es: "Dominio, hosting y publicación resueltos, con soporte después del lanzamiento.",
+      en: "We handle domain setup, hosting, and deployment, with ongoing support after launch.",
+      pt: "Cuidamos da configuração do domínio, da hospedagem e da publicação, com suporte contínuo depois do lançamento.",
+      es: "Nos encargamos de la configuración del dominio, el hosting y la publicación, con soporte continuo después del lanzamiento.",
     },
   },
 ];

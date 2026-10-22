@@ -40,7 +40,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Translator }) {
             href="#contact"
             className="hidden rounded-full bg-accent px-4 py-2 text-sm font-semibold text-on-accent transition hover:bg-accent-hover md:inline-flex"
           >
-            {t(ui.hero.primaryCta)}
+            {t(ui.headerCta)}
           </a>
           <MobileMenu
             links={links}
